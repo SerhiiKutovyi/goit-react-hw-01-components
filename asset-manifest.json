@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/goit-js-hw-08-new.git/static/css/main.b5320759.css",
-    "main.js": "/goit-js-hw-08-new.git/static/js/main.b83b4378.js",
+    "main.js": "/goit-js-hw-08-new.git/static/js/main.63f0001d.js",
     "index.html": "/goit-js-hw-08-new.git/index.html",
     "main.b5320759.css.map": "/goit-js-hw-08-new.git/static/css/main.b5320759.css.map",
-    "main.b83b4378.js.map": "/goit-js-hw-08-new.git/static/js/main.b83b4378.js.map"
+    "main.63f0001d.js.map": "/goit-js-hw-08-new.git/static/js/main.63f0001d.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.b83b4378.js"
+    "static/js/main.63f0001d.js"
   ]
 }
