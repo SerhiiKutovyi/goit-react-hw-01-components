@@ -1,20 +1,17 @@
 /* @import '~@csstools/normalize.css'; */
-.profile {
-  width: 800px;
-  height: 100%;
-  border: 2px solid coral;
-  text-align: center;
-}
 
 .avatar {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline;
   max-width: 200px;
   max-height: 200px;
   border-radius: 50%;
+  background-color: rgb(121, 179, 179);
 }
 
 .name {
-  /* display: inline; */
-  max-width: 100%;
+  margin-bottom: 30px;
 
   font-weight: 700;
   font-size: 56px;
@@ -23,4 +20,13 @@
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.tag {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }

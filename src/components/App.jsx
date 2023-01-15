@@ -1,5 +1,6 @@
 import user from 'user.json';
-import { Profile } from './PageProfile/Profile';
+import { Description } from './Profile/Description/Description';
+import { Stats } from './Profile/Stats/Stats';
 
 export const App = () => {
   return (
@@ -13,13 +14,15 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
+      <div className="profile">
+        <Description
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+        />
+        <Stats stats={user.stats} />
+      </div>
     </div>
   );
 };
