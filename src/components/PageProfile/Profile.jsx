@@ -1,4 +1,4 @@
-// import css from './Profile.css';
+import css from './Profile.modules.css';
 import PropTypes from 'prop-types';
 
 export function Profile(props) {
@@ -6,7 +6,7 @@ export function Profile(props) {
   return (
     <div className="profile">
       <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" width="380" />
+        <img src={avatar} alt="User avatar" className="avatar" />
         <p className="name">{username}</p>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>

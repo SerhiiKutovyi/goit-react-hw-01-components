@@ -1,0 +1,26 @@
+/* @import '~@csstools/normalize.css'; */
+.profile {
+  width: 800px;
+  height: 100%;
+  border: 2px solid coral;
+  text-align: center;
+}
+
+.avatar {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.name {
+  /* display: inline; */
+  max-width: 100%;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
