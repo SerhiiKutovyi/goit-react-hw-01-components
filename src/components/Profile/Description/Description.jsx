@@ -4,7 +4,7 @@ import css from './Description.module.css';
 export function Description(props) {
   const { avatar, username, tag, location } = props;
   return (
-    <div className="description">
+    <div className={css.description}>
       <img src={avatar} alt="User avatar" className={css.avatar} />
       <p className={css.name}>{username}</p>
       <p className={css.tag}>{tag}</p>

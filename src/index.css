@@ -1,6 +1,5 @@
 @import-normalize;
 
-/* @import '~@csstools/normalize.css'; */
 * {
   box-sizing: border-box;
 }
@@ -53,12 +52,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.profile {
-  width: 600px;
-  height: 70%;
-  border: 2px solid coral;
-  text-align: center;
-  background-color: white;
 }
