@@ -1,6 +1,9 @@
 import user from 'user.json';
+import data from 'data.json';
 import { Description } from './Profile/Description/Description';
 import { Stats } from './Profile/Stats/Stats';
+import { CreateTitle } from './Statistics/Title/Title';
+import { CreateStatistics } from './Statistics/StatList/Statistics';
 
 export const App = () => {
   return (
@@ -8,6 +11,7 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -23,6 +27,10 @@ export const App = () => {
         />
         <Stats stats={user.stats} />
       </div>
+      <section className="statistics">
+        <CreateTitle />
+        <CreateStatistics label={data.label} percentage={data.percentage} />
+      </section>
     </div>
   );
 };
