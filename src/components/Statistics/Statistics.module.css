@@ -1,4 +1,12 @@
+.statistics {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+
 .title {
+  width: 200px;
+
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 56px;

@@ -1,9 +1,11 @@
 import user from 'user.json';
 import data from 'data.json';
+import friends from 'friends.json';
+
 import { Description } from './Profile/Description/Description';
 import { Stats } from './Profile/Stats/Stats';
-import { CreateTitle } from './Statistics/Title/Title';
-import { CreateStatistics } from './Statistics/StatList/Statistics';
+import { CreateStatistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 
 export const App = () => {
   return (
@@ -11,8 +13,7 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
+        flexDirection: 'column',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
@@ -27,10 +28,13 @@ export const App = () => {
         />
         <Stats stats={user.stats} />
       </div>
-      <section className="statistics">
-        <CreateTitle />
-        <CreateStatistics label={data.label} percentage={data.percentage} />
-      </section>
+      <>
+        <CreateStatistics title="Upload stats" stats={data} />
+        {/* <CreateStatistics stats={data} /> */}
+      </>
+      <>
+        <FriendList friends={friends} />
+      </>
     </div>
   );
 };
