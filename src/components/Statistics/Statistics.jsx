@@ -5,9 +5,10 @@ import { Title } from './Title/Title';
 export function CreateStatistics({ title, stats }) {
   return (
     <section className={css.statistics}>
+      <div></div>
       {title && <Title title={title} />}
 
-      <ul className="stat-list">
+      <ul className={css.statList}>
         {stats.map(ele => {
           return (
             <li key={ele.id} className="item">
