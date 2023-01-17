@@ -32,7 +32,7 @@ export const App = () => {
       </div>
       <>
         <CreateStatistics title="Upload stats" stats={data} />
-        {/* <CreateStatistics stats={data} /> */}
+        <CreateStatistics stats={data} />
         <FriendList friends={friends} />
         <TransactionHistory items={transactions} />
       </>

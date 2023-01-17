@@ -1,23 +1,26 @@
 .statistics {
+  text-align: center;
+
   margin-top: 50px;
+  margin-bottom: 40px;
+
   width: 600px;
-  height: 100%;
-  background-color: aqua;
+  height: 240px;
+  background-color: white;
 }
 
 .statList {
+  width: 100%;
+  height: 120px;
   display: flex;
   gap: 10px;
 }
 
-.title {
-  width: 200px;
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: gray;
 }

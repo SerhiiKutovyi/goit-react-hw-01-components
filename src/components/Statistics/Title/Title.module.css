@@ -1,0 +1,13 @@
+.title {
+  margin-top: 40px;
+
+  width: 100%;
+
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
