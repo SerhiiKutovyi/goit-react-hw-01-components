@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Stats.module.css';
 
-export function Stats(props) {
-  const { stats } = props;
+export function Stats({ stats }) {
   return (
     <ul className={css.stats}>
       <li className={css.markup}>
