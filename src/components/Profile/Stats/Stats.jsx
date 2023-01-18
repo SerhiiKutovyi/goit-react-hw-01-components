@@ -21,8 +21,9 @@ export function Stats({ stats }) {
 }
 
 Stats.propTypes = {
-  stats: PropTypes.shape(PropTypes.number.isRequired),
-  // followers: PropTypes.number.isRequired,
-  // views: PropTypes.number.isRequired,
-  // likes: PropTypes.number.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
 };
